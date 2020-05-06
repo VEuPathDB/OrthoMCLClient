@@ -1,0 +1,22 @@
+<project name="OrthoMCLClient" default="WebInstallation" basedir=".">
+
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooo  Web Installation  oooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+  <target name="OrthoMCLClient-WebInstallation" depends="OrthoMCLCLient/Site-WebInstallation">
+
+  </target>
+
+  <target name="OrthoMCLClient/Site-WebInstallation">
+
+    <ant target="eupathWebComponentInstall">
+      <property name="project" value="OrthoMCLClient" />
+      <property name="component" value="Site" />
+    </ant>
+
+  </target>
+
+</project>
+
+
