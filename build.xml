@@ -1,10 +1,16 @@
 <project name="OrthoMCLClient" default="WebInstallation" basedir=".">
 
   <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooo  Dependencies  oooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+  <import file="${projectsDir}/EbrcWebsiteCommon/build.xml"/>
+
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
   <!-- oooooooooooooooooooooooo  Web Installation  oooooooooooooooooooooooo -->
   <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
 
-  <target name="OrthoMCLClient-WebInstallation" depends="OrthoMCLCLient/Site-WebInstallation">
+  <target name="OrthoMCLClient-WebInstallation" depends="OrthoMCLClient/Site-WebInstallation">
 
   </target>
 
