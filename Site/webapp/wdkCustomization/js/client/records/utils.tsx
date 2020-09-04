@@ -42,6 +42,8 @@ export const PFAM_DOMAINS_ATTRIBUTE_FIELD: AttributeField = {
 const COUNT_ATTRIBUTE_NAME = 'count';
 const ABBREV_ATTRIBUTE_NAME = 'abbrev';
 
+export const DOMAIN_FREQUENCY_TABLE_NAME = 'DomainFrequency';
+export const KEYWORD_FREQUENCY_TABLE_NAME = 'KeywordFrequency';
 export const TAXON_COUNTS_TABLE_NAME = 'TaxonCounts';
 
 interface PseudoAttributeSpec {
