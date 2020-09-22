@@ -32,6 +32,7 @@ node_modules/
 
 # Other version control
 .svn/
+.DS_Store
 
 #
 # Exported from svn:ignore
@@ -39,3 +40,4 @@ node_modules/
 .hg
 .hgignore
 target
+.*~
