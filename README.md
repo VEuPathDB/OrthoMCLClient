@@ -8,7 +8,7 @@
 
 ## Installation and Usage
 
-Presently, `OrthoMCLCLient` should be installed following the [Strategies WDK
+Presently, `OrthoMCLClient` should be installed following the [Strategies WDK
 Documentation](https://docs.google.com/document/u/1/d/1nZayjR-0Hj3YeukjfwoWZ3TzokuuuWvSwnhw_q41oeE/pub).
 
 Dependencies are managed with [yarn](https://yarnpkg.com/).
