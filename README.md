@@ -2,7 +2,7 @@
 
 ## Description
 
-`OrthoMCLClient` is an extension of the [WDKClient](https://github.com/VEuPathDB/WDKClient) for the [OrthoMCL project](https://orthomcl.org/orthomcl/about.do). As with the WDKClient, OrthoMCLClient is React-based and mostly written in [TypeScript](https://www.typescriptlang.org/) and SCSS
+`OrthoMCLClient` is an extension of the [WDKClient](https://github.com/VEuPathDB/WDKClient) for the [OrthoMCL project](https://orthomcl.org/orthomcl/about.do). As with the `WDKClient`, `OrthoMCLClient` is React-based and mostly written in [TypeScript](https://www.typescriptlang.org/) and SCSS
 ([Sass](https://sass-lang.com/)).
 
 
