@@ -40,3 +40,8 @@ node_modules/
 .hg
 .hgignore
 target
+
+# Environment files
+.env
+.env.local
+.env.*.local
