@@ -5,7 +5,7 @@
   "repository": "https://github.com/VEuPathDB/OrthoMCLClient",
   "license": "MIT",
   "scripts": {
-    "start": "veupathdb-react-scripts run-site-dev-server --config webpack.config.local.mjs"
+    "start": "veupathdb-react-scripts run-site-dev-server --config webpack.config.local.mjs --port 3000"
   },
   "browserslist": [
     "extends @veupathdb/browserslist-config"
